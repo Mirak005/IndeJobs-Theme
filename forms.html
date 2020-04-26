@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link rel="stylesheet" href="css/flexboxgrid.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <header>
-        <nav class="bg-light-dark">
-            <img class="nav-item brand-logo" src="./images/logo.png" width="200px" height="60px" alt="fail to load" />
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <div
+          class="row end-sm end-md end-lg middle-xs middle-sm middle-md middle-lg center-xs"
+        >
+          <img
+            class="col-xs-4 col-sm-2 col-md-2 col-lg-2"
+            src="./images/logo.png"
+          />
+          <nav class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
             <ul class="navmenu">
-                <li class="nav-item link nav-link">FreeLancers &#8689; </li>
-                <li class="nav-item btn-nav signup-btn">Sign Up</li>
-                <li class="nav-item btn-nav login-btn">Login</li>
+              <li><a href="#"> FreeLancers &#8689;</a></li>
+              <li>
+                <a><i class="fa fa-user"></i> Karim Gharbi </a>
+              </li>
+              <li class="dropdown-btn">
+                <i class="fa fa-ellipsis-h"></i>
+                <ul id="dropdown" >
+                  <li>Settings</li>
+                  <li>Profile</li>
+                  <li>Logout</li>
+                </ul>
+              </li>
             </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
-  
-  <div>
 
-      <button class="btn">Hello </button>
-    </div>
-
+<script>
+    let dropdown = document.getElementById("dropdown")
+    let btn = document.querySelector(".dropdown-btn")
 
 
 
+     
+</script>
 
 
-
-
-
-</body>
-
+  </body>
 </html>
