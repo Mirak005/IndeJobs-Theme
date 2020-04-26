@@ -95,7 +95,7 @@ a {
   font-size: 20px;
   text-align: center;
   padding: 10px 20px;
-  margin: 0.5rem 0.5rem ;
+  margin: 0.5rem 0.5rem;
 }
 
 /*GEST UI*/
@@ -221,6 +221,7 @@ form {
   animation-duration: 0.4s;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   padding: 1.5rem 1rem;
   margin: auto;
   border-radius: 5px;
@@ -253,7 +254,8 @@ form input {
   padding: 0.5rem;
   color: var(--dark-color);
   font-size: 100%;
-  margin: 0.5rem 0;
+  margin: 0.5rem auto;
+  width: 90%;
 }
 
 ::placeholder {
