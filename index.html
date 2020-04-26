@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet" />
+
+  <title>indeJobs | Welcome</title>
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/flexboxgrid.css" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="container">
+      <div class="row end-sm end-md end-lg middle-xs middle-sm middle-md middle-lg center-xs">
+        <img class="col-xs-4 col-sm-2 col-md-2 col-lg-2" src="./images/logo.png" />
+        <nav class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+          <ul class="navmenu">
+            <li><a href="#"> FreeLancers &#8689;</a></li>
+            <li><button>Login</button></li>
+            <li><button>Sign Up</button></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- SHOWCASE -->
+  <section id="showcase">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+        <div class=" showcase-content col-xs-10 col-sm-10 col-md-10 col-lg-7">
+          <h1>Welcome to <span class="primary-text">indeJobs</span></h1>
+          <p>Join our community of FreeLancers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- categories -->
+  <section id="categories">
+    <div class="container">
+      <div class="row center-xs center-md center-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2>Explore Our MarketPlace</h2>
+          <p>Most Popular Freelance Jobs</p>
+          <!-- ICON ROW  -->
+          <div class="row center-xs center-md center-lg">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <figure>
+                <figcaption>Graphic design</figcaption>
+                <img src="./images/icons-graphic.png" alt="" />
+              </figure>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <figure>
+                <figcaption>Programming</figcaption>
+
+                <img src="./images/icons-programming.png" alt="" />
+              </figure>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <figure>
+                <figcaption>Audio && Music</figcaption>
+
+                <img src="./images/icons-audio.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Main PAGE -->
+
+  <section class="forms">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-10 col-sm-6 col-md-6 col-lg-4">
+          <form class="login-form">
+            <span class="close">&times;</span>
+            <h3>Login</h3>
+            <label for="email"><i class="fa fa-user"></i> Email</label>
+            <input type="email" name="email" />
+            <label for="password">
+              <i class="fa fa-key"></i> Password</label>
+            <input type="password" name="password" required />
+            <button class="">Sign In</button>
+            <p>You dont have an account <a href="#">Sign Up Here</a></p>
+          </form>
+        </div>
+      </div>
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-10 col-sm-6 col-md-6 col-lg-4">
+          <form class="signup-form">
+            <span class="close">&times;</span>
+            <h3>Sign Up</h3>
+            <label for="name"><i class="fa fa-address-card"></i> Full Name</label>
+            <input type="name" name="name" />
+            <label for="email"><i class="fa fa-user"></i> Email</label>
+            <input type="email" name="email" />
+            <label for="password">
+              <i class="fa fa-key"></i> Password</label>
+            <input type="password" name="password" required />
+            <label>Confrim Your Password</label>
+            <input type="password" name="password" required />
+
+            <button class="btn-nav">Sign Up</button>
+            <p>You have already an account <a href="#">Login Here</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>Copyright &copy; 2020 | indeJobs</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
