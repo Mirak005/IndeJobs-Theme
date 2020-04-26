@@ -93,6 +93,7 @@ a {
   color: var(--light-color);
   font-weight: 700;
   font-size: 20px;
+  text-align: center;
   padding: 10px 20px;
   margin: 0.5rem 0.5rem ;
 }
@@ -238,6 +239,7 @@ form .button {
 form a {
   color: var(--success-color);
   text-decoration: underline;
+  padding: 5px;
 }
 form p {
   align-self: flex-end;
