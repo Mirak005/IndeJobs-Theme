@@ -46,7 +46,7 @@ a {
 
 /*USER UI*/
 
-.dropdown-btn i {
+.dropdown-btn > i {
   border: 1px solid var(--primary-color);
   padding: 0.5em;
   border-radius: 50%;
@@ -54,7 +54,7 @@ a {
   transition: 0.3s;
   cursor: pointer;
 }
-.dropdown-btn i:hover {
+.dropdown-btn > i:hover {
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
   padding: 0.5em;
@@ -62,7 +62,7 @@ a {
   transform: translateY(-2px);
   color: var(--light-color);
 }
-.dropdown-btn i:hover + #dropdown,
+.dropdown-btn > i:hover + #dropdown,
 #dropdown:hover {
   left: 80%;
 }
@@ -87,6 +87,14 @@ a {
   to {
     left: 80%;
   }
+}
+
+#dropdown li {
+  color: var(--light-color);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0.5rem 0.5rem ;
 }
 
 /*GEST UI*/
@@ -254,9 +262,9 @@ form input {
 
 @media (max-width: 700px) {
   .dropdown-btn i:hover + #dropdown,
-#dropdown:hover {
-  left: 60%;
-}
+  #dropdown:hover {
+    left: 60%;
+  }
 
   #showcase {
     clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0 100%);
@@ -270,5 +278,4 @@ form input {
     color: var(--light-color);
     margin: 0;
   }
-
 }
