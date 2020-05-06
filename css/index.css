@@ -98,7 +98,7 @@ a {
   margin: 0.5rem 0.5rem;
 }
 
-/*GEST UI*/
+/*GueST UI*/
 
 .navmenu li {
   list-style: none;
@@ -145,17 +145,18 @@ form button:hover {
 
 /* SHOWCASE */
 #showcase {
+  position: relative;
   background-image: url("../images/note-book.jpg");
   background-size: cover;
   background-position: center;
   clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0 100%);
-  z-index: -1;
-  transition: linear 0.5s;
+  transition: 0.5s;
 }
 #showcase .container {
-  background-color: rgba(0, 0, 0, 0.594);
-  width: 96vw;
+  background-color: rgba(0, 0, 0, 0.435);
+  width: 97vw;
 }
+
 #showcase .row {
   height: 600px;
 }
@@ -217,6 +218,7 @@ footer {
   cursor: pointer;
 }
 form {
+  box-shadow: 0 2px 20px 1px rgb(8, 8, 8, 0.8);
   animation-name: animatetop;
   animation-duration: 0.4s;
   display: flex;
@@ -226,7 +228,7 @@ form {
   background-color: var(--info-color);
   color: var(--light-color);
 }
-form label{
+form label {
   align-self: flex-start;
 }
 
@@ -256,7 +258,6 @@ form input {
   color: var(--dark-color);
   font-size: 100%;
   margin: 0.5rem 0;
-  width: 90%;
 }
 
 ::placeholder {
